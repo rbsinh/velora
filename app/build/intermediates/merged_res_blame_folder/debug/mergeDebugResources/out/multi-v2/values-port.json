@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "app.velora.track.app-mergeDebugResources-61:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\bhrathod\\.gradle\\caches\\9.6.0\\transforms\\10bdc26bee4592ae0e7de3cb5a9c1d14\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

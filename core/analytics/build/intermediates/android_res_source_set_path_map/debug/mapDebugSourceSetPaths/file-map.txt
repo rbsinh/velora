@@ -1,0 +1,9 @@
+app.velora.core.analytics-pngs-0 C:\Users\bhrathod\Downloads\New folder\tmp\core\analytics\build\generated\res\pngs\debug
+app.velora.core.analytics-updated_navigation_xml-1 C:\Users\bhrathod\Downloads\New folder\tmp\core\analytics\build\generated\updated_navigation_xml\debug
+app.velora.core.analytics-mergeDebugResources-2 C:\Users\bhrathod\Downloads\New folder\tmp\core\analytics\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+app.velora.core.analytics-mergeDebugResources-3 C:\Users\bhrathod\Downloads\New folder\tmp\core\analytics\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+app.velora.core.analytics-debug-4 C:\Users\bhrathod\Downloads\New folder\tmp\core\analytics\build\intermediates\merged_res\debug\mergeDebugResources
+app.velora.core.analytics-debug-5 C:\Users\bhrathod\Downloads\New folder\tmp\core\analytics\build\intermediates\packaged_res\debug\packageDebugResources
+app.velora.core.analytics-debug-6 C:\Users\bhrathod\Downloads\New folder\tmp\core\analytics\src\debug\res
+app.velora.core.analytics-main-7 C:\Users\bhrathod\Downloads\New folder\tmp\core\analytics\src\main\res
+gradleHome-0 C:\Users\bhrathod\.gradle

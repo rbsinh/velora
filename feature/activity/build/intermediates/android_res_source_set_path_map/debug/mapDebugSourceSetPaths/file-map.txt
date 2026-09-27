@@ -1,0 +1,9 @@
+app.velora.feature.activity-pngs-0 C:\Users\bhrathod\Downloads\New folder\tmp\feature\activity\build\generated\res\pngs\debug
+app.velora.feature.activity-updated_navigation_xml-1 C:\Users\bhrathod\Downloads\New folder\tmp\feature\activity\build\generated\updated_navigation_xml\debug
+app.velora.feature.activity-mergeDebugResources-2 C:\Users\bhrathod\Downloads\New folder\tmp\feature\activity\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+app.velora.feature.activity-mergeDebugResources-3 C:\Users\bhrathod\Downloads\New folder\tmp\feature\activity\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+app.velora.feature.activity-debug-4 C:\Users\bhrathod\Downloads\New folder\tmp\feature\activity\build\intermediates\merged_res\debug\mergeDebugResources
+app.velora.feature.activity-debug-5 C:\Users\bhrathod\Downloads\New folder\tmp\feature\activity\build\intermediates\packaged_res\debug\packageDebugResources
+app.velora.feature.activity-debug-6 C:\Users\bhrathod\Downloads\New folder\tmp\feature\activity\src\debug\res
+app.velora.feature.activity-main-7 C:\Users\bhrathod\Downloads\New folder\tmp\feature\activity\src\main\res
+gradleHome-0 C:\Users\bhrathod\.gradle

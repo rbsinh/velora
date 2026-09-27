@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.velora.core.domain.SyncAndPremiumTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-27T09:25:59.506Z" hostname="BLRBHRATHOD" time="0.166">
+  <properties/>
+  <testcase name="higherServerRevisionWins" classname="app.velora.core.domain.SyncAndPremiumTest" time="0.002"/>
+  <testcase name="purchasedKnownProductIsPremium" classname="app.velora.core.domain.SyncAndPremiumTest" time="0.004"/>
+  <testcase name="equalTimestampPrefersDeletion" classname="app.velora.core.domain.SyncAndPremiumTest" time="0.0"/>
+  <testcase name="blankTokenIsNotPremium" classname="app.velora.core.domain.SyncAndPremiumTest" time="0.0"/>
+  <testcase name="pendingPurchaseIsNotPremium" classname="app.velora.core.domain.SyncAndPremiumTest" time="0.001"/>
+  <testcase name="unconfiguredTransportKeepsOutbox" classname="app.velora.core.domain.SyncAndPremiumTest" time="0.157"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

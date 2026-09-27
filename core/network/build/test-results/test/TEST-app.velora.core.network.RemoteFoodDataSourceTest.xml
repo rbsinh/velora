@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.velora.core.network.RemoteFoodDataSourceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-27T09:25:59.253Z" hostname="BLRBHRATHOD" time="1.273">
+  <properties/>
+  <testcase name="unknownBarcodeIsNotFound" classname="app.velora.core.network.RemoteFoodDataSourceTest" time="1.065"/>
+  <testcase name="searchParsesVerifiedFood" classname="app.velora.core.network.RemoteFoodDataSourceTest" time="0.122"/>
+  <testcase name="recognitionWithoutConfidenceIsInvalid" classname="app.velora.core.network.RemoteFoodDataSourceTest" time="0.054"/>
+  <testcase name="serverErrorIsRetryableClass" classname="app.velora.core.network.RemoteFoodDataSourceTest" time="0.015"/>
+  <testcase name="invalidBarcodeDoesNotCallNetwork" classname="app.velora.core.network.RemoteFoodDataSourceTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

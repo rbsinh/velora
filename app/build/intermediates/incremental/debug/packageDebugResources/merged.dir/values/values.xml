@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="icon_background">#F4F1EA</color>
+    <string name="app_name">Velora</string>
+    <style name="Theme.Velora" parent="android:Theme.DeviceDefault.NoActionBar"/>
+    <style name="Theme.Velora.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#F4F1EA</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_mark</item>
+        <item name="postSplashScreenTheme">@style/Theme.Velora</item>
+    </style>
+</resources>

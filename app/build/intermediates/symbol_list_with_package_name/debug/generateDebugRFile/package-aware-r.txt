@@ -1,0 +1,10 @@
+app.velora.track
+color icon_background
+drawable ic_mark
+mipmap ic_launcher
+string app_name
+style Theme_Velora
+style Theme_Velora_Splash
+xml backup_rules
+xml data_extraction_rules
+xml network_security_config

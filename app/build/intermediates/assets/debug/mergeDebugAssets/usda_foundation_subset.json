@@ -1,0 +1,6 @@
+{
+  "source": "USDA FoodData Central SR Legacy",
+  "license": "U.S. government work, public domain. This file is a small subset with FDC ids, not the full database.",
+  "serving": "Values are per 100 g as returned for these SR Legacy records.",
+  "records": []
+}

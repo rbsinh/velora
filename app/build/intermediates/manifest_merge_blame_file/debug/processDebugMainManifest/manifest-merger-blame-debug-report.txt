@@ -1,0 +1,499 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.velora.track.debug"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="26"
+8-->INJECTED
+9        android:targetSdkVersion="36" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:4:5-65
+12-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:4:22-62
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:5:5-77
+13-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:5:22-74
+14    <uses-permission android:name="android.permission.health.READ_STEPS" />
+14-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:6:5-76
+14-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:6:22-73
+15    <uses-permission android:name="android.permission.health.READ_DISTANCE" />
+15-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:7:5-79
+15-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.health.READ_ACTIVE_CALORIES_BURNED" />
+16-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:8:5-93
+16-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:8:22-90
+17
+18    <uses-feature
+18-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:9:5-85
+19        android:name="android.hardware.camera"
+19-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:9:19-57
+20        android:required="false" />
+20-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:9:58-82
+21
+22    <queries>
+22-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:11:5-13:15
+23        <package android:name="com.google.android.apps.healthdata" />
+23-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:12:9-70
+23-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:12:18-67
+24
+25        <intent>
+25-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:13:9-15:18
+26            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+26-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:14:13-91
+26-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:14:21-88
+27        </intent>
+28        <intent>
+28-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:16:9-18:18
+29            <action android:name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND" />
+29-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:17:13-116
+29-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:17:21-113
+30        </intent>
+31    </queries>
+32
+33    <uses-permission android:name="android.permission.WAKE_LOCK" />
+33-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:23:5-68
+33-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:23:22-65
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+34-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:24:5-79
+34-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:24:22-76
+35    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+35-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:25:5-81
+35-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:25:22-78
+36    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+36-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:26:5-77
+36-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:26:22-74
+37    <uses-permission android:name="com.android.vending.BILLING" />
+37-->[com.android.billingclient:billing-ktx:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\b9f1d187f3f21ea509afd99567effde9\transformed\billing-ktx-9.1.0\AndroidManifest.xml:9:5-67
+37-->[com.android.billingclient:billing-ktx:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\b9f1d187f3f21ea509afd99567effde9\transformed\billing-ktx-9.1.0\AndroidManifest.xml:9:22-64
+38
+39    <permission
+39-->[androidx.core:core:1.18.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\9b38d4a2ffaf132939e0d86462a6942b\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+40        android:name="app.velora.track.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.18.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\9b38d4a2ffaf132939e0d86462a6942b\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.18.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\9b38d4a2ffaf132939e0d86462a6942b\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="app.velora.track.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.18.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\9b38d4a2ffaf132939e0d86462a6942b\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.18.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\9b38d4a2ffaf132939e0d86462a6942b\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+44
+45    <application
+45-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:15:5-51:19
+46        android:name="app.velora.track.VeloraApplication"
+46-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:16:9-42
+47        android:allowBackup="false"
+47-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:17:9-36
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.18.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\9b38d4a2ffaf132939e0d86462a6942b\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
+49        android:dataExtractionRules="@xml/data_extraction_rules"
+49-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:18:9-65
+50        android:debuggable="true"
+51        android:extractNativeLibs="false"
+51-->INJECTED
+52        android:fullBackupContent="@xml/backup_rules"
+52-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:19:9-54
+53        android:icon="@mipmap/ic_launcher"
+53-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:20:9-43
+54        android:label="@string/app_name"
+54-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:21:9-41
+55        android:networkSecurityConfig="@xml/network_security_config"
+55-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:22:9-69
+56        android:supportsRtl="true"
+56-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:23:9-35
+57        android:theme="@style/Theme.Velora" >
+57-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:24:9-44
+58        <activity
+58-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:25:9-33:20
+59            android:name="app.velora.track.MainActivity"
+59-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:26:13-41
+60            android:exported="true"
+60-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:27:13-36
+61            android:theme="@style/Theme.Velora.Splash" >
+61-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:28:13-55
+62            <intent-filter>
+62-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:29:13-32:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:30:17-69
+63-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:30:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:31:17-77
+65-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:31:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:34:9-40:20
+69            android:name="app.velora.track.privacy.HealthConnectRationaleActivity"
+69-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:35:13-67
+70            android:exported="true" >
+70-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:36:13-36
+71            <intent-filter>
+71-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:37:13-39:29
+72                <action android:name="androidx.health.ACTION_SHOW_PERMISSIONS_RATIONALE" />
+72-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:38:17-92
+72-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:38:25-89
+73            </intent-filter>
+74        </activity>
+75
+76        <activity-alias
+76-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:41:9-50:26
+77            android:name="app.velora.track.ViewPermissionUsageActivity"
+77-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:42:13-55
+78            android:exported="true"
+78-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:43:13-36
+79            android:permission="android.permission.START_VIEW_PERMISSION_USAGE"
+79-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:44:13-80
+80            android:targetActivity="app.velora.track.privacy.HealthConnectRationaleActivity" >
+80-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:45:13-77
+81            <intent-filter>
+81-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:46:13-49:29
+82                <action android:name="android.intent.action.VIEW_PERMISSION_USAGE" />
+82-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:47:17-86
+82-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:47:25-83
+83
+84                <category android:name="android.intent.category.HEALTH_PERMISSIONS" />
+84-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:48:17-87
+84-->C:\Users\bhrathod\Downloads\New folder\tmp\app\src\main\AndroidManifest.xml:48:27-84
+85            </intent-filter>
+86        </activity-alias>
+87
+88        <service
+88-->[androidx.health.connect:connect-client:1.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\b6bd479efb5f549bc6ae997cfc5804c8\transformed\connect-client-1.1.0\AndroidManifest.xml:24:9-32:19
+89            android:name="androidx.health.platform.client.impl.sdkservice.HealthDataSdkService"
+89-->[androidx.health.connect:connect-client:1.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\b6bd479efb5f549bc6ae997cfc5804c8\transformed\connect-client-1.1.0\AndroidManifest.xml:25:13-96
+90            android:enabled="true"
+90-->[androidx.health.connect:connect-client:1.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\b6bd479efb5f549bc6ae997cfc5804c8\transformed\connect-client-1.1.0\AndroidManifest.xml:26:13-35
+91            android:exported="true" >
+91-->[androidx.health.connect:connect-client:1.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\b6bd479efb5f549bc6ae997cfc5804c8\transformed\connect-client-1.1.0\AndroidManifest.xml:27:13-36
+92            <intent-filter>
+92-->[androidx.health.connect:connect-client:1.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\b6bd479efb5f549bc6ae997cfc5804c8\transformed\connect-client-1.1.0\AndroidManifest.xml:29:13-31:29
+93                <action android:name="androidx.health.platform.client.ACTION_BIND_SDK_SERVICE" />
+93-->[androidx.health.connect:connect-client:1.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\b6bd479efb5f549bc6ae997cfc5804c8\transformed\connect-client-1.1.0\AndroidManifest.xml:30:17-98
+93-->[androidx.health.connect:connect-client:1.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\b6bd479efb5f549bc6ae997cfc5804c8\transformed\connect-client-1.1.0\AndroidManifest.xml:30:25-95
+94            </intent-filter>
+95        </service>
+96        <service
+96-->[androidx.camera:camera-camera2:1.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\e3fb169553e3dd363b137bdc68a4e34d\transformed\camera-camera2-1.5.0\AndroidManifest.xml:24:9-33:19
+97            android:name="androidx.camera.core.impl.MetadataHolderService"
+97-->[androidx.camera:camera-camera2:1.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\e3fb169553e3dd363b137bdc68a4e34d\transformed\camera-camera2-1.5.0\AndroidManifest.xml:25:13-75
+98            android:enabled="false"
+98-->[androidx.camera:camera-camera2:1.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\e3fb169553e3dd363b137bdc68a4e34d\transformed\camera-camera2-1.5.0\AndroidManifest.xml:26:13-36
+99            android:exported="false" >
+99-->[androidx.camera:camera-camera2:1.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\e3fb169553e3dd363b137bdc68a4e34d\transformed\camera-camera2-1.5.0\AndroidManifest.xml:27:13-37
+100            <meta-data
+100-->[androidx.camera:camera-camera2:1.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\e3fb169553e3dd363b137bdc68a4e34d\transformed\camera-camera2-1.5.0\AndroidManifest.xml:30:13-32:89
+101                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+101-->[androidx.camera:camera-camera2:1.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\e3fb169553e3dd363b137bdc68a4e34d\transformed\camera-camera2-1.5.0\AndroidManifest.xml:31:17-103
+102                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+102-->[androidx.camera:camera-camera2:1.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\e3fb169553e3dd363b137bdc68a4e34d\transformed\camera-camera2-1.5.0\AndroidManifest.xml:32:17-86
+103        </service>
+104
+105        <provider
+105-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:29:9-37:20
+106            android:name="androidx.startup.InitializationProvider"
+106-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:30:13-67
+107            android:authorities="app.velora.track.debug.androidx-startup"
+107-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:31:13-68
+108            android:exported="false" >
+108-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:32:13-37
+109            <meta-data
+109-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:34:13-36:52
+110                android:name="androidx.work.WorkManagerInitializer"
+110-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:35:17-68
+111                android:value="androidx.startup" />
+111-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:36:17-49
+112            <meta-data
+112-->[androidx.emoji2:emoji2:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\6441c38872a9b2584c1829ddad365c2f\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+113                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+113-->[androidx.emoji2:emoji2:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\6441c38872a9b2584c1829ddad365c2f\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+114                android:value="androidx.startup" />
+114-->[androidx.emoji2:emoji2:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\6441c38872a9b2584c1829ddad365c2f\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+115            <meta-data
+115-->[androidx.lifecycle:lifecycle-process:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\2b301d9eed71c42df6f9d45d35702c63\transformed\lifecycle-process-2.11.0\AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+116-->[androidx.lifecycle:lifecycle-process:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\2b301d9eed71c42df6f9d45d35702c63\transformed\lifecycle-process-2.11.0\AndroidManifest.xml:30:17-78
+117                android:value="androidx.startup" />
+117-->[androidx.lifecycle:lifecycle-process:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\2b301d9eed71c42df6f9d45d35702c63\transformed\lifecycle-process-2.11.0\AndroidManifest.xml:31:17-49
+118            <meta-data
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+120                android:value="androidx.startup" />
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+121        </provider>
+122
+123        <service
+123-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:39:9-45:35
+124            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+124-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:40:13-84
+125            android:directBootAware="false"
+125-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:41:13-44
+126            android:enabled="@bool/enable_system_job_service_default"
+126-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:42:13-70
+127            android:exported="true"
+127-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:43:13-36
+128            android:permission="android.permission.BIND_JOB_SERVICE" />
+128-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:44:13-69
+129        <service
+129-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:46:9-52:35
+130            android:name="androidx.work.impl.foreground.SystemForegroundService"
+130-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:47:13-81
+131            android:directBootAware="false"
+131-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:48:13-44
+132            android:enabled="@bool/enable_system_foreground_service_default"
+132-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:49:13-77
+133            android:exported="false" />
+133-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:50:13-37
+134
+135        <receiver
+135-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:54:9-59:35
+136            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+136-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:55:13-88
+137            android:directBootAware="false"
+137-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:56:13-44
+138            android:enabled="true"
+138-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:57:13-35
+139            android:exported="false" />
+139-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:58:13-37
+140        <receiver
+140-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:60:9-69:20
+141            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+141-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:61:13-88
+142            android:directBootAware="false"
+142-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:62:13-44
+143            android:enabled="false"
+143-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:63:13-36
+144            android:exported="false" >
+144-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:64:13-37
+145            <intent-filter>
+145-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:66:13-68:29
+146                <action android:name="android.intent.action.BOOT_COMPLETED" />
+146-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:67:17-79
+146-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:67:25-76
+147            </intent-filter>
+148        </receiver>
+149        <receiver
+149-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:70:9-80:20
+150            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+150-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:71:13-78
+151            android:directBootAware="false"
+151-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:72:13-44
+152            android:enabled="true"
+152-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:73:13-35
+153            android:exported="true"
+153-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:74:13-36
+154            android:permission="android.permission.DUMP" >
+154-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:75:13-57
+155            <intent-filter>
+155-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:77:13-79:29
+156                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+156-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:78:17-88
+156-->[androidx.work:work-runtime:2.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4af3033d4a39de98cc5770b47dffa2\transformed\work-runtime-2.11.0\AndroidManifest.xml:78:25-85
+157            </intent-filter>
+158        </receiver>
+159
+160        <service
+160-->[androidx.room3:room3-runtime-android:3.0.3] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\777d2a236522ae391c697b3a75fbc8ba\transformed\room3-runtime\AndroidManifest.xml:24:9-28:63
+161            android:name="androidx.room3.MultiInstanceInvalidationService"
+161-->[androidx.room3:room3-runtime-android:3.0.3] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\777d2a236522ae391c697b3a75fbc8ba\transformed\room3-runtime\AndroidManifest.xml:25:13-75
+162            android:directBootAware="true"
+162-->[androidx.room3:room3-runtime-android:3.0.3] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\777d2a236522ae391c697b3a75fbc8ba\transformed\room3-runtime\AndroidManifest.xml:26:13-43
+163            android:exported="false" />
+163-->[androidx.room3:room3-runtime-android:3.0.3] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\777d2a236522ae391c697b3a75fbc8ba\transformed\room3-runtime\AndroidManifest.xml:27:13-37
+164
+165        <activity
+165-->[androidx.compose.ui:ui-tooling-android:1.12.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\1f09a264456a524f193ec01a79d81a21\transformed\ui-tooling\AndroidManifest.xml:23:9-25:39
+166            android:name="androidx.compose.ui.tooling.PreviewActivity"
+166-->[androidx.compose.ui:ui-tooling-android:1.12.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\1f09a264456a524f193ec01a79d81a21\transformed\ui-tooling\AndroidManifest.xml:24:13-71
+167            android:exported="true" />
+167-->[androidx.compose.ui:ui-tooling-android:1.12.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\1f09a264456a524f193ec01a79d81a21\transformed\ui-tooling\AndroidManifest.xml:25:13-36
+168        <activity
+168-->[androidx.compose.ui:ui-test-manifest:1.12.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\a453839bb53b3b803d9e3ab9edc81879\transformed\ui-test-manifest-1.12.0\AndroidManifest.xml:23:9-26:79
+169            android:name="androidx.activity.ComponentActivity"
+169-->[androidx.compose.ui:ui-test-manifest:1.12.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\a453839bb53b3b803d9e3ab9edc81879\transformed\ui-test-manifest-1.12.0\AndroidManifest.xml:24:13-63
+170            android:exported="true"
+170-->[androidx.compose.ui:ui-test-manifest:1.12.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\a453839bb53b3b803d9e3ab9edc81879\transformed\ui-test-manifest-1.12.0\AndroidManifest.xml:25:13-36
+171            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+171-->[androidx.compose.ui:ui-test-manifest:1.12.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\a453839bb53b3b803d9e3ab9edc81879\transformed\ui-test-manifest-1.12.0\AndroidManifest.xml:26:13-76
+172
+173        <service
+173-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\4c61b3b45b61fb6e84809b6aa70eca7a\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:9:9-15:19
+174            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+174-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\4c61b3b45b61fb6e84809b6aa70eca7a\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:10:13-91
+175            android:directBootAware="true"
+175-->[com.google.mlkit:common:18.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\dcfa76db6c2cc6007e721ad3bf846cf7\transformed\common-18.11.0\AndroidManifest.xml:17:13-43
+176            android:exported="false" >
+176-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\4c61b3b45b61fb6e84809b6aa70eca7a\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:11:13-37
+177            <meta-data
+177-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\4c61b3b45b61fb6e84809b6aa70eca7a\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
+178                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+178-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\4c61b3b45b61fb6e84809b6aa70eca7a\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\4c61b3b45b61fb6e84809b6aa70eca7a\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
+180            <meta-data
+180-->[com.google.mlkit:vision-common:17.3.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\872027bea95d26e9987643466e419564\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+181                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+181-->[com.google.mlkit:vision-common:17.3.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\872027bea95d26e9987643466e419564\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+182                android:value="com.google.firebase.components.ComponentRegistrar" />
+182-->[com.google.mlkit:vision-common:17.3.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\872027bea95d26e9987643466e419564\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+183            <meta-data
+183-->[com.google.mlkit:common:18.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\dcfa76db6c2cc6007e721ad3bf846cf7\transformed\common-18.11.0\AndroidManifest.xml:20:13-22:85
+184                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+184-->[com.google.mlkit:common:18.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\dcfa76db6c2cc6007e721ad3bf846cf7\transformed\common-18.11.0\AndroidManifest.xml:21:17-120
+185                android:value="com.google.firebase.components.ComponentRegistrar" />
+185-->[com.google.mlkit:common:18.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\dcfa76db6c2cc6007e721ad3bf846cf7\transformed\common-18.11.0\AndroidManifest.xml:22:17-82
+186        </service>
+187
+188        <provider
+188-->[com.google.mlkit:common:18.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\dcfa76db6c2cc6007e721ad3bf846cf7\transformed\common-18.11.0\AndroidManifest.xml:9:9-13:38
+189            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+189-->[com.google.mlkit:common:18.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\dcfa76db6c2cc6007e721ad3bf846cf7\transformed\common-18.11.0\AndroidManifest.xml:10:13-78
+190            android:authorities="app.velora.track.debug.mlkitinitprovider"
+190-->[com.google.mlkit:common:18.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\dcfa76db6c2cc6007e721ad3bf846cf7\transformed\common-18.11.0\AndroidManifest.xml:11:13-69
+191            android:exported="false"
+191-->[com.google.mlkit:common:18.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\dcfa76db6c2cc6007e721ad3bf846cf7\transformed\common-18.11.0\AndroidManifest.xml:12:13-37
+192            android:initOrder="99" />
+192-->[com.google.mlkit:common:18.11.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\dcfa76db6c2cc6007e721ad3bf846cf7\transformed\common-18.11.0\AndroidManifest.xml:13:13-35
+193
+194        <meta-data
+194-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:22:9-24:37
+195            android:name="com.google.android.play.billingclient.version"
+195-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:23:13-73
+196            android:value="9.1.0" />
+196-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:24:13-34
+197
+198        <activity
+198-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:26:9-30:75
+199            android:name="com.android.billingclient.api.ProxyBillingActivity"
+199-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:27:13-78
+200            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+200-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:28:13-96
+201            android:exported="false"
+201-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:29:13-37
+202            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+202-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:30:13-72
+203        <activity
+203-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:31:9-35:75
+204            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+204-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:32:13-80
+205            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+205-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:33:13-96
+206            android:exported="false"
+206-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:34:13-37
+207            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+207-->[com.android.billingclient:billing:9.1.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\22a0838a2c96705d8000d7fd660a5bde\transformed\billing-9.1.0\AndroidManifest.xml:35:13-72
+208        <activity
+208-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4795481573d85d6f9cb3daf3bf0a29\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+209            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+209-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4795481573d85d6f9cb3daf3bf0a29\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+210            android:exported="false"
+210-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4795481573d85d6f9cb3daf3bf0a29\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+211            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+211-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\cf4795481573d85d6f9cb3daf3bf0a29\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+212
+213        <meta-data
+213-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\18af62d87043db9814052c97d0a78155\transformed\play-services-basement-18.9.0\AndroidManifest.xml:21:9-23:69
+214            android:name="com.google.android.gms.version"
+214-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\18af62d87043db9814052c97d0a78155\transformed\play-services-basement-18.9.0\AndroidManifest.xml:22:13-58
+215            android:value="@integer/google_play_services_version" />
+215-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\18af62d87043db9814052c97d0a78155\transformed\play-services-basement-18.9.0\AndroidManifest.xml:23:13-66
+216
+217        <uses-library
+217-->[androidx.window:window:1.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3dcaa9b78b447970deec56936d2a2c9a\transformed\window-1.5.0\AndroidManifest.xml:23:9-25:40
+218            android:name="androidx.window.extensions"
+218-->[androidx.window:window:1.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3dcaa9b78b447970deec56936d2a2c9a\transformed\window-1.5.0\AndroidManifest.xml:24:13-54
+219            android:required="false" />
+219-->[androidx.window:window:1.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3dcaa9b78b447970deec56936d2a2c9a\transformed\window-1.5.0\AndroidManifest.xml:25:13-37
+220        <uses-library
+220-->[androidx.window:window:1.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3dcaa9b78b447970deec56936d2a2c9a\transformed\window-1.5.0\AndroidManifest.xml:26:9-28:40
+221            android:name="androidx.window.sidecar"
+221-->[androidx.window:window:1.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3dcaa9b78b447970deec56936d2a2c9a\transformed\window-1.5.0\AndroidManifest.xml:27:13-51
+222            android:required="false" />
+222-->[androidx.window:window:1.5.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3dcaa9b78b447970deec56936d2a2c9a\transformed\window-1.5.0\AndroidManifest.xml:28:13-37
+223
+224        <service
+224-->[androidx.room:room-runtime-android:2.7.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\b94dda5a9304c14ecc08ebd8cc21aa12\transformed\room-runtime-release\AndroidManifest.xml:24:9-28:63
+225            android:name="androidx.room.MultiInstanceInvalidationService"
+225-->[androidx.room:room-runtime-android:2.7.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\b94dda5a9304c14ecc08ebd8cc21aa12\transformed\room-runtime-release\AndroidManifest.xml:25:13-74
+226            android:directBootAware="true"
+226-->[androidx.room:room-runtime-android:2.7.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\b94dda5a9304c14ecc08ebd8cc21aa12\transformed\room-runtime-release\AndroidManifest.xml:26:13-43
+227            android:exported="false" />
+227-->[androidx.room:room-runtime-android:2.7.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\b94dda5a9304c14ecc08ebd8cc21aa12\transformed\room-runtime-release\AndroidManifest.xml:27:13-37
+228
+229        <receiver
+229-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+230            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+230-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+231            android:directBootAware="false"
+231-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+232            android:enabled="true"
+232-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+233            android:exported="true"
+233-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+234            android:permission="android.permission.DUMP" >
+234-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+235            <intent-filter>
+235-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+236                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+236-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+236-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+237            </intent-filter>
+238            <intent-filter>
+238-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+239                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+239-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+239-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+240            </intent-filter>
+241            <intent-filter>
+241-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+242                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+242-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+242-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+243            </intent-filter>
+244            <intent-filter>
+244-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+245                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+245-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+245-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\3064f07d255c5424716083cd0bfab1e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+246            </intent-filter>
+247        </receiver>
+248
+249        <service
+249-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\a67fca0e9fec6f140a89695b10c2146a\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+250            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+250-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\a67fca0e9fec6f140a89695b10c2146a\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+251            android:exported="false" >
+251-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\a67fca0e9fec6f140a89695b10c2146a\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+252            <meta-data
+252-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\a67fca0e9fec6f140a89695b10c2146a\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+253                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+253-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\a67fca0e9fec6f140a89695b10c2146a\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+254                android:value="cct" />
+254-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\a67fca0e9fec6f140a89695b10c2146a\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+255        </service>
+256        <service
+256-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\28fae97b942d9cb5c85bcde1eff4466f\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+257            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+257-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\28fae97b942d9cb5c85bcde1eff4466f\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+258            android:exported="false"
+258-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\28fae97b942d9cb5c85bcde1eff4466f\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+259            android:permission="android.permission.BIND_JOB_SERVICE" >
+259-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\28fae97b942d9cb5c85bcde1eff4466f\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+260        </service>
+261
+262        <receiver
+262-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\28fae97b942d9cb5c85bcde1eff4466f\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+263            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+263-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\28fae97b942d9cb5c85bcde1eff4466f\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+264            android:exported="false" />
+264-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\bhrathod\.gradle\caches\9.6.0\transforms\28fae97b942d9cb5c85bcde1eff4466f\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+265    </application>
+266
+267</manifest>

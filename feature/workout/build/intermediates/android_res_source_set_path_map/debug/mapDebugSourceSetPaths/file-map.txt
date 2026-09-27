@@ -1,0 +1,9 @@
+app.velora.feature.workout-pngs-0 C:\Users\bhrathod\Downloads\New folder\tmp\feature\workout\build\generated\res\pngs\debug
+app.velora.feature.workout-updated_navigation_xml-1 C:\Users\bhrathod\Downloads\New folder\tmp\feature\workout\build\generated\updated_navigation_xml\debug
+app.velora.feature.workout-mergeDebugResources-2 C:\Users\bhrathod\Downloads\New folder\tmp\feature\workout\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+app.velora.feature.workout-mergeDebugResources-3 C:\Users\bhrathod\Downloads\New folder\tmp\feature\workout\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+app.velora.feature.workout-debug-4 C:\Users\bhrathod\Downloads\New folder\tmp\feature\workout\build\intermediates\merged_res\debug\mergeDebugResources
+app.velora.feature.workout-debug-5 C:\Users\bhrathod\Downloads\New folder\tmp\feature\workout\build\intermediates\packaged_res\debug\packageDebugResources
+app.velora.feature.workout-debug-6 C:\Users\bhrathod\Downloads\New folder\tmp\feature\workout\src\debug\res
+app.velora.feature.workout-main-7 C:\Users\bhrathod\Downloads\New folder\tmp\feature\workout\src\main\res
+gradleHome-0 C:\Users\bhrathod\.gradle

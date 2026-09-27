@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.velora.core.domain.AdherenceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-27T09:25:59.281Z" hostname="BLRBHRATHOD" time="0.014">
+  <properties/>
+  <testcase name="lossMetWhenAtOrUnderTarget" classname="app.velora.core.domain.AdherenceTest" time="0.007"/>
+  <testcase name="maintainUsesTenPercentBand" classname="app.velora.core.domain.AdherenceTest" time="0.0"/>
+  <testcase name="emptyLogIsNotSuccessForWeightLoss" classname="app.velora.core.domain.AdherenceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

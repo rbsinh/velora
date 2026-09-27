@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.velora.core.domain.StepAggregationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-27T09:25:59.442Z" hostname="BLRBHRATHOD" time="0.06">
+  <properties/>
+  <testcase name="weekAndMonthTotalsSkipMissingDays" classname="app.velora.core.domain.StepAggregationTest" time="0.059"/>
+  <testcase name="healthConnectWinsUnlessUserOverrides" classname="app.velora.core.domain.StepAggregationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

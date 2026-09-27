@@ -1,0 +1,5 @@
+app.velora.track.test.app-updated_navigation_xml-0 /home/bhargav/tmp/app/build/generated/updated_navigation_xml/debugAndroidTest
+app.velora.track.test.app-packageDebugAndroidTestResources-1 /home/bhargav/tmp/app/build/intermediates/incremental/debugAndroidTest/packageDebugAndroidTestResources/merged.dir
+app.velora.track.test.app-packageDebugAndroidTestResources-2 /home/bhargav/tmp/app/build/intermediates/incremental/debugAndroidTest/packageDebugAndroidTestResources/stripped.dir
+app.velora.track.test.app-debugAndroidTest-3 /home/bhargav/tmp/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
+gradleHome-0 /home/bhargav/.gradle

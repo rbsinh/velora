@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.velora.core.domain.FoodScanCoordinatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-27T09:25:59.377Z" hostname="BLRBHRATHOD" time="0.043">
+  <properties/>
+  <testcase name="missingConfidenceIsNotAMatch" classname="app.velora.core.domain.FoodScanCoordinatorTest" time="0.028"/>
+  <testcase name="candidatesRequirePortionBeforeCommit" classname="app.velora.core.domain.FoodScanCoordinatorTest" time="0.012"/>
+  <testcase name="unconfiguredProviderDoesNotLogAndDiscardsImage" classname="app.velora.core.domain.FoodScanCoordinatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
