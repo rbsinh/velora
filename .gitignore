@@ -1,13 +1,2 @@
-*.iml
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-*.aab
-*.ap_
-*.dex
-*.class
-*.log
-keystore.jks
-*.keystore
+
 
