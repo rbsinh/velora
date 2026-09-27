@@ -1,0 +1,3 @@
+-keep class app.velora.core.database.** { *; }
+-dontwarn javax.annotation.**
+-keepattributes *Annotation*
