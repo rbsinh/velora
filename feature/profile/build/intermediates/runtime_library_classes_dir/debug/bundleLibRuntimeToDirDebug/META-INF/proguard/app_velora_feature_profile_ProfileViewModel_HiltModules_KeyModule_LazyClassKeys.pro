@@ -1,1 +1,0 @@
--keep,allowobfuscation,allowshrinking class app.velora.feature.profile.ProfileViewModel
